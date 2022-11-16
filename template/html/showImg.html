@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <div>count: {{ .count }}</div>
+  {{ range .imgSrc }}
+  <img src = {{ . }}>
+  {{ end }}
+</body>
+</html>
